@@ -5,7 +5,7 @@ const About = () => {
   const stats = [
     { icon: Home, label: 'Projects Completed', value: '150+' },
     { icon: Users, label: 'Happy Clients', value: '120+' },
-    { icon: Award, label: 'Years Experience', value: '8+' },
+    { icon: Award, label: 'Years Experience', value: '10+' },
     { icon: Palette, label: 'Design Awards', value: '15+' }
   ];
 
@@ -26,7 +26,7 @@ const About = () => {
               About Teeksha Gupta
             </h2>
             <p className="text-lg text-muted-foreground mb-6">
-              With over 8 years of experience in interior design, I specialize in creating spaces that are both beautiful and functional. My approach combines contemporary aesthetics with timeless elegance, ensuring each project reflects the unique personality and lifestyle of my clients.
+              With over 10+ years of experience in interior design, I specialize in creating spaces that are both beautiful and functional. My approach combines contemporary aesthetics with timeless elegance, ensuring each project reflects the unique personality and lifestyle of my clients.
             </p>
             <p className="text-lg text-muted-foreground mb-8">
               I believe that great design is about more than just beautiful spaces—it's about creating environments that enhance the way you live, work, and connect with others. Every project is a collaboration, and I work closely with my clients to bring their vision to life.
