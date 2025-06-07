@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { Award, Users, Home, Palette } from 'lucide-react';
 
 const About = () => {
@@ -14,10 +15,12 @@ const About = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
-            <img
+            <Image
               src="/TeekshaGupta.png"
               alt="Teeksha Gupta - Interior Designer"
-              className="w-full rounded-2xl shadow-xl"
+              width={500}
+              height={500}
+              className="w-full rounded-2xl shadow-xl object-cover"
             />
           </div>
           
