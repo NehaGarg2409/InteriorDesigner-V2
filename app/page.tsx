@@ -1,4 +1,5 @@
 "use client";
+import About from "@/components/About/page";
 import Hero from "@/components/Hero";
 import Projects from "@/components/ProjectsSection/page";
 
@@ -9,9 +10,9 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <>
-      {/* <ScrollUp /> */}
       <Hero />
       <Projects />
+      <About />
       
     </>
   );
