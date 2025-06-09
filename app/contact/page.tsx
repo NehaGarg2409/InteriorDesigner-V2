@@ -42,8 +42,8 @@ const ContactPage = () => {
     {
       icon: Mail,
       title: "Email",
-      detail: "satyagroup.sec.md@gmail.com",
-      link: "mailto:satyagroup.sec.md@gmail.com",
+      detail: "tasdesign7@gmail.com",
+      link: "mailto:tasdesign7@gmail.com",
       description: "Send us an email anytime"
     },
     {
@@ -70,7 +70,7 @@ const ContactPage = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-blue-200 text-slate-800">
+    <div className="min-h-screen bg-primary text-slate-800">
 
       {/* Hero Section */}
       <section className="pt-24 pb-16 bg-gradient-to-br from-white to-sky-100/30">
@@ -244,7 +244,7 @@ const ContactPage = () => {
                   <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="inline-flex items-center px-8 py-4 bg-sky-400 text-white font-semibold rounded-xl hover:bg-sky-400/90 transition-all duration-200 transform hover:scale-105 hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed group"
+                    className="inline-flex items-center px-8 py-4 bg-sky-400 text-black font-semibold rounded-xl hover:bg-sky-400/90 transition-all duration-200 transform hover:scale-105 hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed group"
                   >
                     {isSubmitting ? (
                       <>
@@ -253,7 +253,7 @@ const ContactPage = () => {
                       </>
                     ) : (
                       <>
-                        <Send className="w-5 h-5 mr-2 group-hover:translate-x-1 transition-transform duration-200" />
+                        <Send className="w-5 h-5 mr-2 text-black text-dark group-hover:translate-x-1 transition-transform duration-200" />
                         Send Message
                       </>
                     )}
